@@ -1,0 +1,53 @@
+{
+  "name": "@tsdevau/wtfdyp",
+  "displayName": "WTF Did You Pay? - Payment Allocator",
+  "version": "0.0.1",
+  "private": false,
+  "description": "An intuitive Chrome extension designed to streamline the invoice selection process on Xero's Accounts Receivable page. Leveraging a sophisticated algorithm, it efficiently identifies combinations of invoices that match a specified payment amount, prioritizing options that minimize gaps and include the earliest invoices. Users are presented with ranked choices, allowing for an informed selection based on invoice continuity and coverage. Upon selection, the extension visually marks the chosen invoices, enhancing the user experience by facilitating easier payment allocation. Ideal for businesses looking to optimize their accounts receivable management with precision and ease.",
+  "keywords": [
+    "chrome-extension",
+    "xero",
+    "invoice-selection",
+    "accounts-receivable",
+    "payment-allocation",
+    "invoice-management",
+    "financial-tool",
+    "optimization",
+    "user-experience",
+    "web-automation",
+    "invoice-matching",
+    "payment-processing",
+    "accounting",
+    "finance",
+    "business-tool"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tsdevau/wtfdyp"
+  },
+  "license": "BSD-3-Clause",
+  "author": {
+    "name": "@tsdevau",
+    "email": "github@tsdev.au",
+    "url": "https://tsdev.au/wtfdyp"
+  },
+  "type": "module",
+  "main": "wtfdyp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.3.10",
+    "@swc/core": "^1.4.8",
+    "@types/chrome": "^0.0.263",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@webextension-toolbox/webextension-toolbox": "^7.1.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "happy-dom": "^13.8.6",
+    "prettier": "^3.2.5",
+    "prettier-plugin-packagejson": "^2.4.12",
+    "vitest": "^1.4.0"
+  },
+  "packageManager": "pnpm@8.15.4"
+}
